@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.box{ /* Classe para marcar borda e falicitar vizualização de alguns exercícios */
+    width: 150px;
+    height: 100px;
+    border: 1px solid plum;
+}
+  
+  /* Exercício 1 */
+  
+  #container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+  }
+
+
+/* Exercício 2 */
+
+#container2{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+
+/* Exercício 3 */
+
+#container3{
+    display: flex;
+  }
+
+.grow {
+    flex-grow: 2;
+  }
+
+/* Exercício 4 */
+
+#container4{
+    display: flex;
+}
+
+.shrink{
+    flex-shrink: 5;
+}
+
+/* Exercício 5 */
+
+#container5{
+    display: flex;
+}
+
+.item{
+    border: 1px solid purple;
+    flex-grow: 2;
+    flex-shrink: 2;
+}
+
+.basis{
+    flex-basis: 200px;
+}
+
+/* Exercício 6 */
+
+#container6{
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* Exercício 7 */
+
+#container7{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Exercício 8 */
+
+#container8{
+    display: flex;
+    justify-content: center;
+}
+
+/* Exercício 9 */
+
+#container9{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Exercício 10 */
+
+#external-container{
+    display: flex;
+    flex-direction: row; /* não é necessário usar o flex direction para row, ele é o padrão */
+    border: 1px salmon solid;
+}
+
+.internal-container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid blueviolet;
+}
+
+/* Exercício 11 */
+
+
+#external-container2{
+    display: flex;
+    flex-direction: column;
+    border: 1px salmon solid;
+}
+
+.internal-container2{
+    display: flex;
+    flex-direction: row; /* não é necessário usar o flex direction para row */
+    border: 1px solid blueviolet;
+}
+
+/* Exercício 12 */
+
+#container12{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    border: 2px solid blueviolet;
+}
+
+/* Exercício 13 */
+
+#container13{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    border: 2px solid violet;
+}
+
+/* Exercício 14 */
+
+#container14{
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: repeat(3, 50px);
+}
+
+.border{  /* Somente para adicionar borda para melhorar a vizualização */
+    border: 1px solid blue;
+}
+
+/* Exercício 15 */
+
+#container15{
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: repeat(4,100px);
+}
+
+.row{
+    grid-area: 1 / 1 / 1 / span 2; /* começa na linha 1 da coluna 1, termina na linha um e na coluna 2 (span para os 2 lados)*/
+}
+
+.column{
+    grid-area: 1 / 3 / span 2 / 3; /* começa na linha 1 da coluna 3, termina na linha 2 (span para a 2 linha) e na coluna 1*/
+}
+
+/* Exercício 16 */
+
+#container16{
+    display: grid;
+    grid-template-columns: 3fr 2fr 1fr;
+    grid-template-rows: 2fr 1fr 5fr;
+}
+
