@@ -1,6 +1,6 @@
 # Mobile UI Study Materials
 
-Welcome to the Mobile UI Study Materials repository! This repository contains a collection of materials from my classes and coursework related to mobile UI design. 
+Welcome to the Mobile UI Study Materials repository! This repository contains a collection of materials from my classes and coursework related to Mobile UI design. 
 
 ## Introduction
 
